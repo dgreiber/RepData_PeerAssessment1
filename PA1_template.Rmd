@@ -22,7 +22,7 @@ totalSteps <- aggregate(steps ~ date, data = activity, sum, na.rm = TRUE)
 hist(totalSteps$steps, col = "green", xlab = "Total Steps per Day", ylab = "Frequency", 
      main = "Histogram of Total Steps Taken Per Day")
 ```
-![Png1.png](https://github.com/dgreiber/RepData_PeerAssessment1/figure/Png1.png)\
+![Png1.png](figure/Png1.png)
 
 - Calculate and report the mean and median total number of steps taken per day
 ```{r echo = TRUE}
